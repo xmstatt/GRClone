@@ -26,24 +26,10 @@ Upon entry of your username and password the the following occurs:
 8) Click on that URL(initially you might see a site not found message). After about 10 minutes as the settings need to propogate through Githubs servers, refresh the page and it will mirror the one that created it.
 9) All Done.
 
-***oAuth Version requires you to have a secure web host account that can execute your index.php page ***
-1) Upload the index.php page there. (after adding your cliend_id and client_secrey_key)
-2) In the oAuth version (index.html) change the following:
-line #191
-<code>
-$.get('https://grclone.000webhostapp.com/?code=' + thisOne, function (data) {
-</code>
-
-change to:
-
-<code>
-$.get('https://your_hosted_url/?code=' + thisOne, function (data) {
-</code>
 
 
 # Working Demo:
 https://mstatt.github.io/GRClone_Application/index2.html
 
-# oAuth Demo:
-https://mstatt.github.io/GRClone_Application
+
 
